@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Accomodation in Flexdale</title>
+</head>
+
+<body>
+
+    <div class="body_container">
+        <header>
+            <div class="logo_container">
+                <h1>Discover Dentdale</h1>
+                <h3>.co.uk</h3>
+            </div>
+        </header>
+
+        <nav>
+            <p class="navigation"><a href="./index.html">Home</a></p>
+            <div class="contact_info">
+                <p class="telephone">07977777777</p>
+                <p class="email">bookings@discoverdentdale.co.uk</p>
+            </div>
+        </nav>
+
+        <div class="container">
+
+            <aside>
+                <div class="aside_container">
+                    <h4>Holiday Cottages</h4>
+                    <p class="paragraph">
+                        From a romantic break away to a special family gathering, our select range of hand-picked
+                        holiday cottages offers you the perfect place to discover Dentdale.
+                    </p>
+                    <p class="paragraph">
+                        Search our cottages by entering your requirements into the form opposite or <a href="">click
+                            here to browse</a> through our self-catering holiday cottages.
+                    </p>
+                    <h4>Late Availability</h4>
+                    <p class="paragraph">
+                        We are able to offer exclusive use of cottage accommodation for any duration from 2 nights and
+                        above, and we can offer you some very special rates within 14 days of arrival. E-mail or
+                        telephone for more details.
+                    </p>
+                </div>
+
+            </aside>
+
+            <main>
+                <div class="image_container">
+                    <img class="banner" src="./photoframe2.jpg" alt="">
+                </div>
+
+                <div class="search_container">
+
+                    <div class="option"><a href="./browse.html" title="Link to Browse All Accommodation">
+                            <p> Browse All
+                                Holiday Cottages &gt;&gt;</p>
+                        </a></div>
+
+
+                    <div class="option">
+                        <p>Search for Holiday Cottages &gt;&gt;</p>
+                    </div>
+                        <form action="" method="post" accept-charset="utf-8" id="cottage_search_form">
+                            <div class="input_row"><label for="arrival_date"><span>Date of Arrival:</span></label>
+                                <input type="text" name="arrival_date" id="arrival_date" class="inputdate jsDatePicker"
+                                    value="09/08/2022" maxlength="10" size="10" tabindex="1"><button type="button"
+                                    class="jsDPButton">?</button>
+                            </div>
+
+                            <div class="input_row"><label for="nights"><span>Nights:</span></label>
+                                <input type="text" name="nights" id="nights" class="" value="7" maxlength="2" size="1"
+                                    tabindex="2">
+                            </div>
+
+                            <div class="input_row"><label for="sleeps"><span>Sleeps:</span></label>
+                                <input type="text" name="sleeps" id="sleeps" class="" value="2" maxlength="2" size="1"
+                                    tabindex="3">
+                            </div>
+
+                            <div class="input_row linebreak"><label for="pets"><span
+                                        class="select_label">Pets:</span></label>
+                                <select name="pets" tabindex="4">
+                                    <option value=""></option>
+                                    <option value="Yes">Yes</option>
+                                </select>
+                            </div>
+
+                            <div class="input_row"><label for="wifi"><span class="select_label">Wifi:</span></label>
+                                <select name="wifi" tabindex="5">
+                                    <option value=""></option>
+                                    <option value="Yes">Yes</option>
+                                </select>
+                            </div>
+
+                            <input type="submit" id="submit" value="search" tabindex="6">
+
+                            <div class="clr"></div>
+                        </form>
+                </div>
+
+            </main>
+        </div>
+
+        <footer>
+            <div class="bottom_bar">
+            </div>
+            <div class="footer">
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
